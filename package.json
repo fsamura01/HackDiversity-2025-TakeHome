@@ -1,0 +1,15 @@
+{
+  "name": "hackdiversity-2025-takehome",
+  "version": "1.0.0",
+  "description": "",
+  "main": "accessible_route_search_and_sorting_challenge.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.7.0"
+  }
+}
