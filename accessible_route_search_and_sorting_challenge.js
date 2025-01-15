@@ -53,7 +53,7 @@ async function submitRoutes(url, sortedRoutes) {
         Authorization: `Bearer ${session_id}`,
         "Content-Type": "application/json",
       },
-      body: JSON.stringify({ sortedRoutes }),
+      body: JSON.stringify({ routes: sortedRoutes }),
     });
     const data = await response.json();
     console.log("Submission Response:", data);
